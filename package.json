@@ -1,0 +1,19 @@
+{
+  "name": "ms-build-web-api",
+  "version": "1.0.0",
+  "description": "Créer une API web avec Node.js et Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "api"
+  ],
+  "author": "fabrice geib",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
