@@ -97,7 +97,7 @@ app.get('/login', () => {})
 
 Vous pouvez aussi exécuter le code du middleware pré-requête comme argument de la gestion de la requête, comme suit :
 
-````javascript
+```javascript
 app.get(
   '/<some route>',
  () => {
@@ -105,4 +105,32 @@ app.get(
  }, () => {
    // Handle the actual request
  })
- ```
+```
+
+## Exercice - Gérer le cycle de vie des requêtes
+
+```
+git clone https://github.com/MicrosoftDocs/node-essentials
+
+cd node-essentials/nodejs-http/exercise-express-middleware
+```
+
+Ce dossier contient trois fichiers : app.js, client.js et package.json.
+
+```shell
+npm install
+```
+
+Inspectez le code des fichiers ```app.js``` et ```client.js```
+
+### Exécuter le programme Express
+
+Ouvrir deux terminaux distincts puis entrer les commandes suivantes :
+
+```
+node app.js
+
+node client.js
+```
+
+### Protéger la route
